@@ -4,6 +4,10 @@ plugins {
     id("module-configurator")
 }
 
+android {
+    namespace = "me.s097t0r1.core.mvi.res"
+}
+
 dependencies {
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)

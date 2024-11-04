@@ -4,6 +4,10 @@ plugins {
     id("kotlin-kapt")
 }
 
+android {
+    namespace = "me.s097t0r1.ktcast.common.network"
+}
+
 dependencies {
 
     implementation(projects.common.network.utils)

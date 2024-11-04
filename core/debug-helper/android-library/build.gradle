@@ -6,6 +6,8 @@ android {
     buildFeatures {
         buildConfig = true
     }
+
+    namespace = "me.s097t0r1.ktcast.core.debug_helper"
 }
 
 dependencies {

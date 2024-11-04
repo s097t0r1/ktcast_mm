@@ -12,6 +12,8 @@ import org.gradle.kotlin.dsl.getByType
 
 class ComposeConfigurationPlugin : Plugin<Project> {
     override fun apply(target: Project): Unit = with(target) {
+        plugins.apply(libs.findPlugin("compose-compiler").get().get().pluginId)
+
         extensions.getByType<BaseExtension>().apply {
             buildFeatures.compose = true
             composeOptions.kotlinCompilerExtensionVersion = libs.versionOf("kotlinComposeCompiler")

@@ -16,7 +16,6 @@ import me.s097t0r1.core.mvi.base.host.HostViewModelOwner
 import me.s097t0r1.core.navigation.message.StartFlowMessage
 import me.s097t0r1.core.ui_components.components.AlertSnackBar
 import me.s097t0r1.core.ui_components.components.AlertSnackBarHost
-import me.s097t0r1.feature.splash.impl.di.SplashComponentHolder
 import me.s097t0r1.ktcast.databinding.ActivityMainBinding
 import me.s097t0r1.ktcast.mvi.MainSideEffect
 import org.orbitmvi.orbit.compose.collectSideEffect
@@ -82,13 +81,7 @@ class MainActivity : BaseContainerActivity<ActivityMainBinding>(), HostViewModel
         }
     }
 
-    override fun openLaunchScreen() {
-        router.navigate(
-            StartFlowMessage(
-                SplashComponentHolder.get().starter.start()
-            )
-        )
-    }
+    override fun openLaunchScreen() {}
 
     override fun setupToolbar(): Toolbar = binding.mtToolbar
 

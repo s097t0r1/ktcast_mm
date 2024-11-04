@@ -8,6 +8,7 @@ android {
     buildFeatures {
         viewBinding = true
     }
+    namespace = "me.s097t0r1.core.mvi"
 }
 
 dependencies {

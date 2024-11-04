@@ -3,6 +3,10 @@ plugins {
     id("kotlin-kapt")
 }
 
+android {
+    namespace = "me.s097t0r1.persistence.database"
+}
+
 dependencies {
 
     implementation(libs.androidx.room.runtime)

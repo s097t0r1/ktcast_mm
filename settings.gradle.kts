@@ -1,4 +1,3 @@
-enableFeaturePreview("VERSION_CATALOGS")
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 
 pluginManagement {
@@ -57,25 +56,7 @@ include(":libraries:mapper:library")
 include(":libraries:either:library")
 include(":libraries:viewmodel-factory:android-library")
 include(":libraries:resource-provider:android-library")
-include(":libraries:validator:android-library")
-
-// Feature
-
-include(":feature:splash:api")
-include(":feature:splash:impl")
-include(":feature:splash:res")
-include(":feature:splash:screen")
-
-include(":feature:authorization:api")
-include(":feature:authorization:impl")
-include(":feature:authorization:screen")
-include(":feature:authorization:res")
-include(":feature:authorization:widget")
-
-// Data
-
-include(":data:authorization:api")
-include(":data:authorization:impl")
 
 include(":libraries:utils:core:android_library")
 include(":libraries:deps-holder-proccessor:library")
+include(":core:core-di")

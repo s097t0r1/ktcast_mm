@@ -3,6 +3,10 @@ plugins {
     id("compose-configurator")
 }
 
+android {
+    namespace = "me.s097t0r1.ktcast.core.dialog"
+}
+
 dependencies {
 
     implementation(projects.core.uiComponents.androidLibrary)

@@ -17,8 +17,8 @@ class LibraryConventionPlugin : Plugin<Project> {
 
     fun Project.configureJavaLibrary() {
         tasks.withType<JavaCompile>().configureEach {
-            sourceCompatibility = "1.8"
-            targetCompatibility = "1.8"
+            sourceCompatibility = "17"
+            targetCompatibility = "17"
         }
     }
 }

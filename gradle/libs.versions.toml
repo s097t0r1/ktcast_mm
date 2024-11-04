@@ -1,37 +1,37 @@
 [versions]
-compileSdk = "33"
+compileSdk = "34"
 targetSdk = "33"
 minSdk = "24"
 
-androidGradlePlugin = "7.2.2"
-kotlinGradlePlugin = "1.7.20"
-detektGradlePlugin = "1.22.0-RC2"
+androidGradlePlugin = "8.7.2"
+kotlinGradlePlugin = "2.0.20"
+detektGradlePlugin = "1.23.7"
 
-kotlinComposeCompiler = "1.3.2"
+kotlinComposeCompiler = "2.0.20"
 
 # Code generation
-ksp = "1.7.20-1.0.7"
+ksp = "2.0.20-1.0.25"
 
-androidDesugaring = "1.1.5"
+androidDesugaring = "2.1.2"
 
-androidxCore = "1.7.0"
-androidxAppCompat = "1.4.1"
-androidxLifecycle = "2.4.1"
-androidxFragment = "1.5.2"
-androidxSecurity = "1.1.0-alpha03"
-androidxComposeActivity = "1.5.1"
-androidxCompose = "1.2.1"
-androidxRoom = "2.4.3"
+androidxCore = "1.13.1"
+androidxAppCompat = "1.7.0"
+androidxLifecycle = "2.8.7"
+androidxFragment = "1.8.5"
+androidxSecurity = "1.1.0-alpha06"
+androidxComposeActivity = "1.9.3"
+androidxCompose = "1.7.5"
+androidxRoom = "2.6.1"
 
-googleMaterial = "1.6.1"
+googleMaterial = "1.12.0"
 
 retrofit = "2.9.0"
 okHttp = "4.10.0"
 moshi = "1.14.0"
 
-coroutinesAndroid = "1.6.4"
+coroutinesAndroid = "1.7.1"
 
-dagger2 = "2.43.2"
+dagger2 = "2.52"
 
 orbit = "4.3.2"
 
@@ -39,6 +39,7 @@ beagle = "2.8.3"
 timber = "5.0.1"
 
 detektComposeRules = "1.2.2"
+jetbrainsKotlinJvm = "1.9.24"
 
 [libraries]
 
@@ -110,3 +111,5 @@ orbit-mvi = ["orbit-mvi-core", "orbit-mvi-viewmodel", "orbit-mvi-compose"]
 [plugins]
 
 detekt = { id = "io.gitlab.arturbosch.detekt", version.ref = "detektGradlePlugin" }
+compose-compiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlinGradlePlugin" }
+jetbrains-kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "jetbrainsKotlinJvm" }

@@ -1,5 +1,7 @@
 plugins {
     alias(libs.plugins.detekt)
+    alias(libs.plugins.jetbrains.kotlin.jvm) apply false
+    alias(libs.plugins.compose.compiler) apply false
 }
 
 buildscript {

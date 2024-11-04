@@ -15,10 +15,9 @@
             </builds>
           </compositeBuild>
         </compositeConfiguration>
-        <option name="testRunner" value="GRADLE" />
-        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="testRunner" value="CHOOSE_PER_TEST" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleJvm" value="Embedded JDK" />
+        <option name="gradleJvm" value="#GRADLE_LOCAL_JAVA_HOME" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
@@ -36,6 +35,7 @@
             <option value="$PROJECT_DIR$/common/persistence/secure-storage" />
             <option value="$PROJECT_DIR$/common/persistence/secure-storage/android-library" />
             <option value="$PROJECT_DIR$/core" />
+            <option value="$PROJECT_DIR$/core/core-di" />
             <option value="$PROJECT_DIR$/core/debug-helper" />
             <option value="$PROJECT_DIR$/core/debug-helper/android-library" />
             <option value="$PROJECT_DIR$/core/di" />
@@ -53,27 +53,11 @@
             <option value="$PROJECT_DIR$/core/ui-components" />
             <option value="$PROJECT_DIR$/core/ui-components/android-library" />
             <option value="$PROJECT_DIR$/core/ui-components/res" />
-            <option value="$PROJECT_DIR$/data" />
-            <option value="$PROJECT_DIR$/data/authorization" />
-            <option value="$PROJECT_DIR$/data/authorization/api" />
-            <option value="$PROJECT_DIR$/data/authorization/impl" />
-            <option value="$PROJECT_DIR$/feature" />
-            <option value="$PROJECT_DIR$/feature/authorization" />
-            <option value="$PROJECT_DIR$/feature/authorization/api" />
-            <option value="$PROJECT_DIR$/feature/authorization/impl" />
-            <option value="$PROJECT_DIR$/feature/authorization/res" />
-            <option value="$PROJECT_DIR$/feature/authorization/screen" />
-            <option value="$PROJECT_DIR$/feature/authorization/widget" />
-            <option value="$PROJECT_DIR$/feature/splash" />
-            <option value="$PROJECT_DIR$/feature/splash/api" />
-            <option value="$PROJECT_DIR$/feature/splash/impl" />
-            <option value="$PROJECT_DIR$/feature/splash/res" />
-            <option value="$PROJECT_DIR$/feature/splash/screen" />
             <option value="$PROJECT_DIR$/libraries" />
-            <option value="$PROJECT_DIR$/libraries/either" />
-            <option value="$PROJECT_DIR$/libraries/either/library" />
             <option value="$PROJECT_DIR$/libraries/deps-holder-proccessor" />
             <option value="$PROJECT_DIR$/libraries/deps-holder-proccessor/library" />
+            <option value="$PROJECT_DIR$/libraries/either" />
+            <option value="$PROJECT_DIR$/libraries/either/library" />
             <option value="$PROJECT_DIR$/libraries/mapper" />
             <option value="$PROJECT_DIR$/libraries/mapper/library" />
             <option value="$PROJECT_DIR$/libraries/resource-provider" />
@@ -81,12 +65,11 @@
             <option value="$PROJECT_DIR$/libraries/utils" />
             <option value="$PROJECT_DIR$/libraries/utils/core" />
             <option value="$PROJECT_DIR$/libraries/utils/core/android_library" />
-            <option value="$PROJECT_DIR$/libraries/validator" />
-            <option value="$PROJECT_DIR$/libraries/validator/android-library" />
             <option value="$PROJECT_DIR$/libraries/viewmodel-factory" />
             <option value="$PROJECT_DIR$/libraries/viewmodel-factory/android-library" />
           </set>
         </option>
+        <option name="resolveExternalAnnotations" value="false" />
       </GradleProjectSettings>
     </option>
   </component>

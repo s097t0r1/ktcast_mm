@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <bytecodeTargetLevel target="1.7">
-      <module name="build-logic" target="11" />
-      <module name="build-logic.main" target="11" />
-      <module name="build-logic.test" target="11" />
-      <module name="ktcast.app" target="11" />
+    <bytecodeTargetLevel target="11">
+      <module name="build-logic" target="17" />
+      <module name="build-logic.main" target="17" />
+      <module name="build-logic.test" target="17" />
+      <module name="ktcast.app" target="17" />
       <module name="ktcast.buildSrc" target="11" />
       <module name="ktcast.buildSrc.main" target="11" />
       <module name="ktcast.buildSrc.test" target="11" />
-      <module name="ktcast.common.logout.android-library" target="11" />
-      <module name="ktcast.common.logout.android-library.main" target="1.8" />
-      <module name="ktcast.common.logout.android-library.test" target="1.8" />
+      <module name="ktcast.common.logout.android-library" target="17" />
+      <module name="ktcast.common.logout.android-library.main" target="17" />
+      <module name="ktcast.common.logout.android-library.test" target="17" />
       <module name="ktcast.common.logout.androidLibrary" target="1.8" />
       <module name="ktcast.common.logout.androidLibrary.main" target="1.8" />
       <module name="ktcast.common.logout.androidLibrary.test" target="1.8" />
-      <module name="ktcast.common.network.android-library" target="11" />
+      <module name="ktcast.common.network.android-library" target="17" />
       <module name="ktcast.common.network.androidLibrary" target="11" />
       <module name="ktcast.common.network.androidUtils" target="1.8" />
       <module name="ktcast.common.network.androidUtils.main" target="1.8" />
@@ -23,52 +23,40 @@
       <module name="ktcast.common.network.library" target="11" />
       <module name="ktcast.common.network.library.main" target="1.8" />
       <module name="ktcast.common.network.library.test" target="1.8" />
-      <module name="ktcast.common.network.utils" target="11" />
-      <module name="ktcast.common.network.utils.main" target="1.8" />
-      <module name="ktcast.common.network.utils.test" target="1.8" />
-      <module name="ktcast.common.persistence.database.android-library" target="11" />
-      <module name="ktcast.common.persistence.secure-storage.android-library" target="11" />
+      <module name="ktcast.common.network.utils" target="17" />
+      <module name="ktcast.common.network.utils.main" target="17" />
+      <module name="ktcast.common.network.utils.test" target="17" />
+      <module name="ktcast.common.persistence.database.android-library" target="17" />
+      <module name="ktcast.common.persistence.secure-storage.android-library" target="17" />
       <module name="ktcast.common.persistence.secure_storage.androidLibrary" target="11" />
-      <module name="ktcast.core.debug-helper.android-library" target="11" />
+      <module name="ktcast.core.debug-helper.android-library" target="17" />
       <module name="ktcast.core.debugHelper.android-library" target="11" />
-      <module name="ktcast.core.di.library" target="11" />
-      <module name="ktcast.core.di.library.main" target="1.8" />
-      <module name="ktcast.core.di.library.test" target="1.8" />
-      <module name="ktcast.core.dialog.android-library" target="11" />
-      <module name="ktcast.core.exceptions.library" target="11" />
-      <module name="ktcast.core.exceptions.library.main" target="1.8" />
-      <module name="ktcast.core.exceptions.library.test" target="1.8" />
-      <module name="ktcast.core.mvi.android-library" target="11" />
-      <module name="ktcast.core.mvi.android-utils" target="11" />
+      <module name="ktcast.core.di.library" target="17" />
+      <module name="ktcast.core.di.library.main" target="17" />
+      <module name="ktcast.core.di.library.test" target="17" />
+      <module name="ktcast.core.dialog.android-library" target="17" />
+      <module name="ktcast.core.exceptions.library" target="17" />
+      <module name="ktcast.core.exceptions.library.main" target="17" />
+      <module name="ktcast.core.exceptions.library.test" target="17" />
+      <module name="ktcast.core.mvi.android-library" target="17" />
+      <module name="ktcast.core.mvi.android-utils" target="17" />
       <module name="ktcast.core.mvi.android-utils.main" target="1.8" />
       <module name="ktcast.core.mvi.android-utils.test" target="1.8" />
-      <module name="ktcast.core.mvi.res" target="11" />
+      <module name="ktcast.core.mvi.res" target="17" />
       <module name="ktcast.core.mvvm.android-library" target="11" />
       <module name="ktcast.core.mvvm.android-utils" target="11" />
       <module name="ktcast.core.mvvm.res" target="11" />
-      <module name="ktcast.core.navigation.android-library" target="11" />
-      <module name="ktcast.core.ui-components.android-library" target="11" />
-      <module name="ktcast.core.ui-components.res" target="11" />
+      <module name="ktcast.core.navigation.android-library" target="17" />
+      <module name="ktcast.core.ui-components.android-library" target="17" />
+      <module name="ktcast.core.ui-components.res" target="17" />
       <module name="ktcast.core.utils.mapper.library" target="1.8" />
       <module name="ktcast.core.utils.mapper.library.main" target="1.8" />
       <module name="ktcast.core.utils.mapper.library.test" target="1.8" />
       <module name="ktcast.core.utils.resource-provider.androidLibrary" target="11" />
       <module name="ktcast.core.utils.validator.android-library" target="11" />
       <module name="ktcast.core.utils.viewmodel_factory.android_library" target="11" />
-      <module name="ktcast.data.authorization.api" target="11" />
-      <module name="ktcast.data.authorization.impl" target="11" />
-      <module name="ktcast.feature.authorization.api" target="11" />
-      <module name="ktcast.feature.authorization.impl" target="11" />
-      <module name="ktcast.feature.authorization.res" target="11" />
-      <module name="ktcast.feature.authorization.screen" target="11" />
-      <module name="ktcast.feature.authorization.widget" target="11" />
       <module name="ktcast.data.profile.api" target="11" />
       <module name="ktcast.data.profile.impl" target="11" />
-      <module name="ktcast.feature.authorization.api" target="11" />
-      <module name="ktcast.feature.authorization.impl" target="11" />
-      <module name="ktcast.feature.authorization.res" target="11" />
-      <module name="ktcast.feature.authorization.screen" target="11" />
-      <module name="ktcast.feature.authorization.widget" target="11" />
       <module name="ktcast.feature.pre-authorized-zone.authorization.api" target="11" />
       <module name="ktcast.feature.pre-authorized-zone.authorization.impl" target="11" />
       <module name="ktcast.feature.pre-authorized-zone.authorization.res" target="11" />
@@ -93,31 +81,24 @@
       <module name="ktcast.feature.profile.api" target="11" />
       <module name="ktcast.feature.profile.impl" target="11" />
       <module name="ktcast.impl" target="11" />
-      <module name="ktcast.feature.splash.api" target="11" />
-      <module name="ktcast.feature.splash.impl" target="11" />
-      <module name="ktcast.feature.splash.res" target="11" />
-      <module name="ktcast.feature.splash.screen" target="11" />
-      <module name="ktcast.feature.profile.api" target="11" />
-      <module name="ktcast.feature.profile.impl" target="11" />
-      <module name="ktcast.feature.splash.api" target="11" />
-      <module name="ktcast.feature.splash.impl" target="11" />
-      <module name="ktcast.feature.splash.res" target="11" />
-      <module name="ktcast.feature.splash.screen" target="11" />
-      <module name="ktcast.libraries.deps-holder-proccessor.library" target="11" />
-      <module name="ktcast.libraries.deps-holder-proccessor.library.main" target="1.8" />
-      <module name="ktcast.libraries.deps-holder-proccessor.library.test" target="1.8" />
-      <module name="ktcast.libraries.mapper.library" target="1.8" />
-      <module name="ktcast.libraries.mapper.library.main" target="1.8" />
-      <module name="ktcast.libraries.mapper.library.test" target="1.8" />
-      <module name="ktcast.libraries.resource-provider.android-library" target="11" />
+      <module name="ktcast.libraries.deps-holder-proccessor.library" target="17" />
+      <module name="ktcast.libraries.deps-holder-proccessor.library.main" target="17" />
+      <module name="ktcast.libraries.deps-holder-proccessor.library.test" target="17" />
+      <module name="ktcast.libraries.either.library" target="17" />
+      <module name="ktcast.libraries.either.library.main" target="17" />
+      <module name="ktcast.libraries.either.library.test" target="17" />
+      <module name="ktcast.libraries.mapper.library" target="17" />
+      <module name="ktcast.libraries.mapper.library.main" target="17" />
+      <module name="ktcast.libraries.mapper.library.test" target="17" />
+      <module name="ktcast.libraries.resource-provider.android-library" target="17" />
       <module name="ktcast.libraries.resource-provider.androidLibrary" target="11" />
       <module name="ktcast.libraries.shelf" target="11" />
       <module name="ktcast.libraries.utils.core.android-library.main" target="1.8" />
       <module name="ktcast.libraries.utils.core.android-library.test" target="1.8" />
-      <module name="ktcast.libraries.utils.core.android_library" target="11" />
+      <module name="ktcast.libraries.utils.core.android_library" target="17" />
       <module name="ktcast.libraries.utils.lifecycle" target="11" />
-      <module name="ktcast.libraries.validator.android-library" target="11" />
-      <module name="ktcast.libraries.viewmodel-factory.android-library" target="11" />
+      <module name="ktcast.libraries.validator.android-library" target="17" />
+      <module name="ktcast.libraries.viewmodel-factory.android-library" target="17" />
       <module name="ktcast.libraries.viewmodel_factory.android-library" target="11" />
       <module name="ktcast.libraries.viewmodel_factory.android_library" target="11" />
       <module name="ktcast.profile" target="11" />

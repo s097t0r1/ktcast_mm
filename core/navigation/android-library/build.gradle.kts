@@ -3,6 +3,10 @@ plugins {
     id("module-configurator")
 }
 
+android {
+    namespace = "me.s097t0r1.core.navigation"
+}
+
 dependencies {
 
     implementation(libs.androidx.appcompat)

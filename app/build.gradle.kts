@@ -1,5 +1,5 @@
 plugins {
-    id("com.google.devtools.ksp") version "1.7.20-1.0.7"
+    id("com.google.devtools.ksp") version "2.0.20-1.0.25"
     id("ktcast-android-application")
     id("compose-configurator")
 }
@@ -11,6 +11,10 @@ kotlin {
     sourceSets.main {
         kotlin.srcDir("build/generated/ksp/main/kotlin")
     }
+}
+
+android {
+    namespace = "me.s097t0r1.ktcast"
 }
 
 dependencies {

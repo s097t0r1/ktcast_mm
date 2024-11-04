@@ -12,8 +12,6 @@ import androidx.compose.foundation.text.BasicTextField
 import androidx.compose.foundation.text.KeyboardActions
 import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material.*
-import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.Email
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
@@ -370,7 +368,7 @@ fun OutlineTextFieldPreview() {
                 isError = true,
                 errorText = "Lorem ipsum",
                 leadingIcon = {
-                    Icon(Icons.Default.Email, null)
+                    // TODO
                 },
                 onValueChange = onValueChanged,
                 placeholder = { Text("Placeholder") }
